@@ -10,3 +10,4 @@ torch>=1.7
 torchvision
 tqdm
 yapf
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
