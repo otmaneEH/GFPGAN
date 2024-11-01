@@ -10,3 +10,4 @@ torch>=1.7
 torchvision
 tqdm
 yapf
+werkzeug>=3.0.6 # not directly required, pinned by Snyk to avoid a vulnerability
