@@ -6,7 +6,9 @@ opencv-python
 pyyaml
 scipy
 tb-nightly
-torch>=1.7
+torch>=2.10.0
 torchvision
 tqdm
 yapf
+pyasn1>=0.6.2 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.46.2 # not directly required, pinned by Snyk to avoid a vulnerability
